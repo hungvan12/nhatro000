@@ -7,7 +7,24 @@ html {
 body {
     margin: 0
 }
+.tanta {
+    display: block;
+    max-width: 10%;
+    max-height: 10%;
+    border-radius: 3px;
+    transform: translate(-279px, -1px);
+}
 
+.welcome-text
+{
+    margin-right: 10px;
+    display: inline-flex;
+    align-items: center;
+    color: hsl(224, 89%, 43%);
+    Border: 1px solid #1c4fca;
+    padding: 10px;
+    Border-radius: 3px;
+}
 h1 {
     font-size: 2em;
     margin: .67em 0
@@ -3508,17 +3525,17 @@ body.fix-body #navbar-menu {
 }
 
 .location-city .location-item.city-1 .location-bg {
-    background: url(../images/location_hcm.jpg) center no-repeat;
+    background: url(../images/thanhphovinh.JPG) center no-repeat;
     background-size: cover
 }
 
 .location-city .location-item.city-2 .location-bg {
-    background: url(../images/location_hn.jpg) center no-repeat;
+    background: url(../images/benthuy.JPG) center no-repeat;
     background-size: cover
 }
 
 .location-city .location-item.city-4 .location-bg {
-    background: url(../images/location_dn.jpg) center no-repeat;
+    background: url(../images/nghiphu.jpg) center no-repeat;
     background-size: cover
 }
 
